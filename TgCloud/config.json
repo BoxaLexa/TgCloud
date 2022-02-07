@@ -1,0 +1,27 @@
+{
+  "LocalHost": "https://*:5001",
+  "RootPassword": "_9Quackgejna",
+  "AdminClient": {
+    "ClientId": "AdminClient",
+    "ClientName": "AdminClient",
+    "ClientSecret": "Lvr5cPzy"
+  },
+  "DataBase": {
+    "Host": "localhost",
+    "Port": "5432",
+    "UserName": "postgres",
+    "Password": "admin",
+    "AspNetDataBaseName": "AspNetIdentity",
+    "IdentityServerDataBaseName": "IdentityServer"
+  },
+  "SmtpClient": {
+    "Server": "smtp.yandex.ru",
+    "Port": "465",
+    "UseSSL": "true",
+    "Login": "idesksu@yandex.ru",
+    "Password": "mnbwwqtfsfyivtqi"
+  },
+  "AuthorizationFront": {
+    "Host": "https://localhost:5001/signin/qwe"
+  }
+}
