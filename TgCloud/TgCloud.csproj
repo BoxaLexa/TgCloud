@@ -22,9 +22,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3" />
     <PackageReference Include="WTelegramClient" Version="2.0.3" />
+    <PackageReference Include="VkNet" Version="1.68.0" />
+    <PackageReference Include="VkNet.AudioBypassService" Version="1.7.2" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="WTelegramClient" />
+    <None Remove="VkNet" />
+    <None Remove="VkNet.AudioBypassService" />
   </ItemGroup>
 </Project>
