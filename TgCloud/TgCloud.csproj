@@ -30,5 +30,11 @@
     <None Remove="WTelegramClient" />
     <None Remove="VkNet" />
     <None Remove="VkNet.AudioBypassService" />
+    <None Remove="Services\" />
+    <None Remove="Core\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Core\" />
   </ItemGroup>
 </Project>
