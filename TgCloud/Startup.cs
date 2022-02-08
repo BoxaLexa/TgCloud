@@ -9,6 +9,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using TgCloud.Services;
 
 namespace TgCloud
 {
@@ -57,6 +58,8 @@ namespace TgCloud
                 var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
             });
+
+            services.RegisterServices();
         }
 
         /// <summary>
